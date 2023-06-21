@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <PreferenceCategory app:title="Información FireSense">
+
+
+        <Preference
+            app:key="totalspace"
+            app:title="Espacio total"
+            app:summary="1000"
+            app:defaultValue="640"
+
+            />
+
+        <Preference
+            app:key="disponible"
+            app:title="Espacio disponible"
+            app:summary="2000" />
+
+        <Preference
+            app:key="usb"
+            app:title="USB"
+            app:summary="No conectado" />
+
+        <Preference
+            app:key="rgb"
+            app:title="Cámara normal"
+            app:summary="No conectada" />
+
+        <Preference
+            app:key="thermal"
+            app:title="Cámara termica"
+            app:summary="No conectada" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
+

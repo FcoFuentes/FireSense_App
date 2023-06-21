@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/connectIcon"
+        android:title="conection"
+        android:icon="@drawable/connect"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/checklist"
+        android:title="conection"
+        android:icon="@drawable/checklist"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/manual"
+        android:title="manual"
+        android:icon="@drawable/manual"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText" />
+
+
+</menu>

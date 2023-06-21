@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCAC06</color>
+    <color name="colorPrimaryDark">#FCAC06</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
+
+    <color name="hint_text_color">#8a000000</color>
+    <color name="bg">#f1eee8</color>
+    <color name="white">#ffffff</color>
+    <color name="faded_orange">#ec8458</color>
+
+    <color name="start_red">#FF1B44</color>
+    <color name="end_yellow">#fcac06</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckListActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Espacio total: "
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/disponible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Espacio disponible"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:id="@+id/usb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USB: Conectado"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/rgb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cámara normal: Conectada"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:id="@+id/termica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cámara termica: Conectada"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+
+
+
+    </LinearLayout>
+</ScrollView>

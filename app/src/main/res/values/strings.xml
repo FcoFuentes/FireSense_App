@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">FireSense</string>
+    <string name="description">Descripción</string>
+    <string name="create">Crear</string>
+    <string name="date">Fecha</string>
+    <string name="name_fire">Nombre incendio</string>
+    <string name="name_mission">Nombre misión</string>
+    <string name="locate">Localidad</string>
+    <string name="height">Altura</string>
+
+    <string name="materialspinner">Material Spinner</string>
+
+
+    <string name="hints"><![CDATA[Member ID(Don\'t include dash or space)<font color=\'#cc0029\'>*</font>]]></string>
+
+
+    <string-array name="localidades">
+        <item>Seleccionar localidad</item>
+        <item>Risco del León</item>
+        <item>Coronel de Maule</item>
+        <item>Barriales</item>
+        <item>Pocillas</item>
+        <item>Sauzal</item>
+        <item>El Trozo</item>
+        <item>Cabrería</item>
+        <item>La Gloria</item>
+        <item>Quilhuine</item>
+        <item>Tapihue</item>
+        <item>Santa Sofía</item>
+        <item>Tierra Amarilla</item>
+        <item>Cancha los Huevos</item>
+        <item>Hualve</item>
+        <item>Tabolguén</item>
+        <item>Las Máquinas</item>
+        <item>San Pedro de Armengol</item>
+        <item>Ramadillas</item>
+        <item>Pilen Bajo</item>
+        <item>Cuyuname</item>
+        <item>Quella</item>
+        <item>Pahuil</item>
+        <item>Chovellén</item>
+        <item>El Carmín</item>
+        <item>La Vega</item>
+        <item>Quiñipato</item>
+        <item>Lagunillas</item>
+        <item>Quinta Chile</item>
+        <item>Reloca</item>
+        <item>Huichahue</item>
+        <item>Polhuín</item>
+        <item>Capilemu</item>
+        <item>Las Petacas</item>
+        <item>Quilicura</item>
+        <item>Las Canchas</item>
+        <item>Junquillar</item>
+    </string-array>
+
+
+    <string-array name="comunas">
+        <item>Seleccionar comuna</item>
+        <item>Talca</item>
+        <item>Constitución</item>
+        <item>Curepto</item>
+        <item>Empedrado</item>
+        <item>Maule</item>
+        <item>Pelarco</item>
+        <item>Pencahue</item>
+        <item>Río Claro</item>
+        <item>San Clemente</item>
+        <item>San Rafael</item>
+        <item>Cauquenes</item>
+        <item>Chanco</item>
+        <item>Pelluhue</item>
+        <item>Curicó</item>
+        <item>Hualañé</item>
+        <item>Licantén</item>
+        <item>Molina</item>
+        <item>Rauco</item>
+        <item>Romeral</item>
+        <item>Sagrada Familia</item>
+        <item>Teno</item>
+        <item>Vichuquén</item>
+        <item>Linares</item>
+        <item>Colbún</item>
+        <item>Longaví</item>
+        <item>Parral</item>
+        <item>Retiro</item>
+        <item>San Javier</item>
+        <item>Villa Alegre</item>
+        <item>Yerbas Buenas</item>
+    </string-array>
+
+    <string name="title_activity_settings2">SettingsActivity2</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_check_list">CheckList</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

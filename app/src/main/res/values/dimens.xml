@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="form_app_bar_height">250dp</dimen>
+    <dimen name="booking_ui_component_height">56dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_15">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="pageMargin">40dp</dimen>
+    <dimen name="offset">70dp</dimen>
+    <dimen name="pageMarginAndOffset">90dp</dimen>
+</resources>

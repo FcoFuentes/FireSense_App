@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckListActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/checkBox_batery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baterias"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/checkBox_helice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Helices"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:id="@+id/checkBox_remoteControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control Remoto"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/checkBox_ipad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ipad"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+        <CheckBox
+            android:id="@+id/checkBox_cableipad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cable conexión ipad a control"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <CheckBox
+            android:id="@+id/checkBox_cableJetson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cable conexión FireSense a dron"
+            android:layout_margin="20dp"
+            tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+</ScrollView>
